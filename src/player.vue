@@ -132,11 +132,9 @@
 
         // ios fullscreen
         if (this.playsinline) {
-          this.$refs.video.setAttribute('playsinline', this.playsinline)
-          this.$refs.video.setAttribute('webkit-playsinline', this.playsinline)
-          this.$refs.video.setAttribute('x5-playsinline', this.playsinline)
-          this.$refs.video.setAttribute('x5-video-player-type', 'h5')
-          this.$refs.video.setAttribute('x5-video-player-fullscreen', false)
+          el.children[0].setAttribute('playsinline', playsinline)
+          el.children[0].setAttribute('webkit-playsinline', playsinline)
+          el.children[0].setAttribute('x5-video-player-type', 'h5-page')
         }
 
         // cross origin
