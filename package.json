@@ -1,14 +1,10 @@
 {
-  "name": "vue-video-player",
+  "name": "keqin-vue-video-player",
   "description": "video.js component for Vue",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "license": "MIT",
   "private": false,
-  "author": {
-    "name": "Surmon",
-    "email": "surmon@foxmail.com",
-    "url": "https://surmon.me"
-  },
+  "author": "Surmon <surmon@foxmail.com> (https://surmon.me)",
   "bugs": {
     "url": "https://github.com/surmon-china/vue-video-player/issues"
   },
@@ -27,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-video-player.git"
+    "url": "git+https://github.com/surmon-china/vue-video-player.git"
   },
   "keywords": [
     "vue-video-player",
@@ -136,5 +132,9 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
