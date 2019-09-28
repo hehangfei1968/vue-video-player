@@ -68,9 +68,7 @@ const videoPlayerDirective = globalOptions => {
     if (playsinline) {
       el.children[0].setAttribute('playsinline', playsinline)
       el.children[0].setAttribute('webkit-playsinline', playsinline)
-      el.children[0].setAttribute('x5-playsinline', playsinline)
-      el.children[0].setAttribute('x5-video-player-type', 'h5')
-      el.children[0].setAttribute('x5-video-player-fullscreen', false)
+      el.children[0].setAttribute('x5-video-player-type', 'h5-page')
     }
 
     // cross origin
